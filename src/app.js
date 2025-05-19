@@ -7,12 +7,11 @@ server.listen(3000, () => {
   console.log("Server is conected ✅");
 });
 
-
 server.use(
   cors({
-    origin: "*", 
-    methods: ["GET", "POST", "PUT", "DELETE"], 
-    allowedHeaders: ["Content-Type", "Authorization"], 
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
