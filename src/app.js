@@ -15,15 +15,6 @@ server.use(
   })
 );
 
-server.get("/getAllData", (req, res) => {
-  try {
-    //const allData = await data.find({});
-    res.send(data);
-  } catch (error) {
-    res.send(error.message);
-  }
-});
-
 server.get("/getRes/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -43,5 +34,14 @@ server.get("/getRes/:id", async (req, res) => {
     });
   } catch (error) {
     res.status(500).send(error.message);
+  }
+});
+
+server.get("/getAllData", (req, res) => {
+  try {
+    //const allData = await data.find({});
+    res.send(data);
+  } catch (error) {
+    res.send(error.message);
   }
 });
