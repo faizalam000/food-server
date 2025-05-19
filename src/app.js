@@ -1,10 +1,20 @@
 const express = require("express");
 const server = express();
 const data = require("./config/data");
+const cors = require("cors");
 
 server.listen(3000, () => {
   console.log("Server is conected ✅");
 });
+
+
+server.use(
+  cors({
+    origin: "*", 
+    methods: ["GET", "POST", "PUT", "DELETE"], 
+    allowedHeaders: ["Content-Type", "Authorization"], 
+  })
+);
 
 server.get("/getAllData", (req, res) => {
   try {
@@ -14,14 +24,25 @@ server.get("/getAllData", (req, res) => {
     res.send(error.message);
   }
 });
-server.get("/getRes/:resturent", async (req, res) => {
+
+server.get("/getRes/:id", async (req, res) => {
   try {
-    const resName = req.params.resturent;
-    const resturent =  data.find((ele) => {
-      return ele.restaurantName === resName;
+    const { id } = req.params;
+    const resData = data.find((data) => {
+      return data.id == id;
     });
-    res.send(resturent);
+
+    if (!resData) {
+      return res.status(404).send({
+        message: "Restaurant not found",
+      });
+    }
+
+    res.send({
+      message: "successfully fetched",
+      data: resData,
+    });
   } catch (error) {
-    res.send(error.message);
+    res.status(500).send(error.message);
   }
 });
