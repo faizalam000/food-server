@@ -3,8 +3,7 @@ const data = [
     id: 1,
     name: "Spicy Grill",
     cuisines: ["Indian", "Barbecue"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Tandoori_chicken_India.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROiXJoB-ZnFmCGmrv-y7bTywWp2iyEeYT8-A&s",
     time: "30 mins",
     offer: "20% off on orders above $30",
     items: [
@@ -19,8 +18,7 @@ const data = [
     id: 2,
     name: "Sushi World",
     cuisines: ["Japanese", "Seafood"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPlMRuLBk2lF1LWhHUZ4E5YLuY26eaug7fPg&s",
     time: "25 mins",
     offer: "Free miso soup with every order",
     items: [
@@ -35,8 +33,7 @@ const data = [
     id: 3,
     name: "Pasta Palace",
     cuisines: ["Italian", "Continental"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Pasta_Puttanesca.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCM1ft5Ac5TXhJYSoO4fznz9NWZi3mTiNcWQ&s",
     time: "35 mins",
     offer: "Buy 1 get 1 free on selected pastas",
     items: [
@@ -51,8 +48,7 @@ const data = [
     id: 4,
     name: "Taco Town",
     cuisines: ["Mexican"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/05/Taco_Bell_Doritos_Locos_Tacos.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBwC1NZB5dFmhv6q9Ru58wTyQVXm_MhrhL0w&s",
     time: "20 mins",
     offer: "15% off for first-time customers",
     items: [
@@ -67,8 +63,7 @@ const data = [
     id: 5,
     name: "Burger Barn",
     cuisines: ["American", "Fast Food"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cheeseburger.jpg",
+    image: "https://images.unsplash.com/photo-1550317138-10000687a72b",
     time: "18 mins",
     offer: "Free fries with every burger",
     items: [
@@ -83,8 +78,7 @@ const data = [
     id: 6,
     name: "Noodle Nest",
     cuisines: ["Chinese", "Asian"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Chow_mein_Chinese_noodles.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvlD3gV4wNJbm37bGrMLCmvDCL91iQOOm9Q&s",
     time: "22 mins",
     offer: "10% off on all noodles",
     items: [
@@ -99,8 +93,7 @@ const data = [
     id: 7,
     name: "Green Garden",
     cuisines: ["Vegan", "Healthy"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Vegan_buddha_bowl.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqcPfqx9BMTPcLMrkrgUEn8xYlHQCBp-ZagQ&s",
     time: "28 mins",
     offer: "Free smoothie with orders over $25",
     items: [
@@ -115,8 +108,7 @@ const data = [
     id: 8,
     name: "Curry Kingdom",
     cuisines: ["Indian", "Thai"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/7/74/Chicken_curry_with_rice.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI02CaRStQLMa1z1SZSOmNG-hrcPMBanSlnlDlQ8sPwPgpAErEyQwyIuhQPESzWEqRs34&usqp=CAU",
     time: "32 mins",
     offer: "Combo meals starting at $9.99",
     items: [
@@ -131,8 +123,7 @@ const data = [
     id: 9,
     name: "Pizza Plaza",
     cuisines: ["Italian", "Pizza"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8gEzoh8wrAviIrSYZRxUp8KgSK-zSGZb96CFaFYIX0aAPcRbqzPhTAxJpP4u4ISk7u0&usqp=CAU",
     time: "27 mins",
     offer: "2 large pizzas for $20",
     items: [
@@ -147,8 +138,7 @@ const data = [
     id: 10,
     name: "Middle Feast",
     cuisines: ["Middle Eastern", "Grill"],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/93/Shish_kebab.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGJNWf1lvOJCfLPNVWRyAi-Mi2Rex4iZhtlPOc5yjkEJUmETEaSFCQWmSdKdWoi5e0YI&usqp=CAU",
     time: "30 mins",
     offer: "Free dessert with orders above $40",
     items: [
