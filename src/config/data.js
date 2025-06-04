@@ -3,7 +3,8 @@ const data = [
     id: 1,
     name: "Spicy Grill",
     cuisines: ["Indian", "Barbecue"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROiXJoB-ZnFmCGmrv-y7bTywWp2iyEeYT8-A&s",
+    image: "https://th.bing.com/th/id/OIP.J2LwWphLZVnb7xpMRWZjjAHaEK?rs=1&pid=ImgDetMain",
+    rating: 4.5,
     time: "30 mins",
     offer: "20% off on orders above $30",
     items: [
@@ -18,7 +19,8 @@ const data = [
     id: 2,
     name: "Sushi World",
     cuisines: ["Japanese", "Seafood"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPlMRuLBk2lF1LWhHUZ4E5YLuY26eaug7fPg&s",
+    image: "https://th.bing.com/th/id/OIP.DZagOzmfIANIVh3OzqiYhgAAAA?rs=1&pid=ImgDetMain",
+    rating: 4.7,
     time: "25 mins",
     offer: "Free miso soup with every order",
     items: [
@@ -33,7 +35,8 @@ const data = [
     id: 3,
     name: "Pasta Palace",
     cuisines: ["Italian", "Continental"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCM1ft5Ac5TXhJYSoO4fznz9NWZi3mTiNcWQ&s",
+    image: "https://th.bing.com/th/id/OIP.gAHAtntCt5vxO0BipJI-LAHaGu?rs=1&pid=ImgDetMain",
+    rating: 4.3,
     time: "35 mins",
     offer: "Buy 1 get 1 free on selected pastas",
     items: [
@@ -48,7 +51,8 @@ const data = [
     id: 4,
     name: "Taco Town",
     cuisines: ["Mexican"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBwC1NZB5dFmhv6q9Ru58wTyQVXm_MhrhL0w&s",
+    image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+    rating: 3.1,
     time: "20 mins",
     offer: "15% off for first-time customers",
     items: [
@@ -64,6 +68,7 @@ const data = [
     name: "Burger Barn",
     cuisines: ["American", "Fast Food"],
     image: "https://images.unsplash.com/photo-1550317138-10000687a72b",
+    rating: 4.2,
     time: "18 mins",
     offer: "Free fries with every burger",
     items: [
@@ -78,7 +83,8 @@ const data = [
     id: 6,
     name: "Noodle Nest",
     cuisines: ["Chinese", "Asian"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvlD3gV4wNJbm37bGrMLCmvDCL91iQOOm9Q&s",
+    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add",
+    rating: 4.1,
     time: "22 mins",
     offer: "10% off on all noodles",
     items: [
@@ -93,7 +99,8 @@ const data = [
     id: 7,
     name: "Green Garden",
     cuisines: ["Vegan", "Healthy"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqcPfqx9BMTPcLMrkrgUEn8xYlHQCBp-ZagQ&s",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+    rating: 4.6,
     time: "28 mins",
     offer: "Free smoothie with orders over $25",
     items: [
@@ -108,7 +115,8 @@ const data = [
     id: 8,
     name: "Curry Kingdom",
     cuisines: ["Indian", "Thai"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI02CaRStQLMa1z1SZSOmNG-hrcPMBanSlnlDlQ8sPwPgpAErEyQwyIuhQPESzWEqRs34&usqp=CAU",
+    image: "https://as2.ftcdn.net/v2/jpg/01/46/57/47/1000_F_146574709_rUYmeFUbuKlCN0Ex0vhwdYHxzfHKbpaI.jpg",
+    rating: 4.4,
     time: "32 mins",
     offer: "Combo meals starting at $9.99",
     items: [
@@ -123,7 +131,8 @@ const data = [
     id: 9,
     name: "Pizza Plaza",
     cuisines: ["Italian", "Pizza"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8gEzoh8wrAviIrSYZRxUp8KgSK-zSGZb96CFaFYIX0aAPcRbqzPhTAxJpP4u4ISk7u0&usqp=CAU",
+    image: "https://th.bing.com/th/id/OIP.TEen-qtYbRQu7gIQuN0VvwHaFw?rs=1&pid=ImgDetMain",
+    rating: 3.9,
     time: "27 mins",
     offer: "2 large pizzas for $20",
     items: [
@@ -138,7 +147,8 @@ const data = [
     id: 10,
     name: "Middle Feast",
     cuisines: ["Middle Eastern", "Grill"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGJNWf1lvOJCfLPNVWRyAi-Mi2Rex4iZhtlPOc5yjkEJUmETEaSFCQWmSdKdWoi5e0YI&usqp=CAU",
+    image: "https://th.bing.com/th/id/OIP.bhO8Tnn20ljBQ9fxf3b7VQHaFj?rs=1&pid=ImgDetMain",
+    rating: 4.3,
     time: "30 mins",
     offer: "Free dessert with orders above $40",
     items: [
