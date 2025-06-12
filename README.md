@@ -1,4 +1,4 @@
-```markdown
+```
 # Restaurant API Server 🍽️
 
 A RESTful API server for accessing restaurant and menu data, built with Express.js. This server provides detailed information about various restaurants, their menus categorized by course types, and special offers.
