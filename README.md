@@ -51,7 +51,6 @@ Returns details for a specific restaurant by its ID.
 {
   "message": "successfully fetched",
   "data": {
-    // restaurant object
   }
 }
 ```
