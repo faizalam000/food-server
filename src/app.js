@@ -39,7 +39,6 @@ server.get("/getRes/:id", async (req, res) => {
 
 server.get("/getAllData", (req, res) => {
   try {
-    //const allData = await data.find({});
     res.send(data);
   } catch (error) {
     res.send(error.message);
