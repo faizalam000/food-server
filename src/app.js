@@ -2,6 +2,7 @@ const express = require("express");
 const server = express();
 const data = require("./config/data");
 const cors = require("cors");
+const path = require("path");
 
 server.listen(3000, () => {
   console.log("Server is conected ✅");
@@ -12,6 +13,18 @@ server.use(
     origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
+
+server.use("/images", express.static("src/config/images"));
+server.use(
+  "/videos",
+  express.static(path.join(__dirname, "config/videos"), {
+    setHeaders: (res, filePath) => {
+      if (filePath.endsWith(".mp4")) {
+        res.setHeader("Content-Type", "video/mp4"); 
+      }
+    },
   })
 );
 
@@ -44,3 +57,16 @@ server.get("/getAllData", (req, res) => {
     res.send(error.message);
   }
 });
+
+// const express = require("express");
+// const server = express();
+// const path = require("path");
+
+// server.use(
+//   "/images",
+//   express.static(path.resolve(__dirname, "config/images"))
+// );
+
+// server.listen(3000, () => {
+//   console.log("Server running ✅ on http://localhost:3000");
+// });
