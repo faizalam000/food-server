@@ -17,16 +17,7 @@ server.use(
 );
 
 server.use("/images", express.static("src/config/images"));
-server.use(
-  "/videos",
-  express.static(path.join(__dirname, "config/videos"), {
-    setHeaders: (res, filePath) => {
-      if (filePath.endsWith(".mp4")) {
-        res.setHeader("Content-Type", "video/mp4"); 
-      }
-    },
-  })
-);
+
 
 server.get("/getRes/:id", async (req, res) => {
   try {
