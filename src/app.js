@@ -48,16 +48,3 @@ server.get("/getAllData", (req, res) => {
     res.send(error.message);
   }
 });
-
-// const express = require("express");
-// const server = express();
-// const path = require("path");
-
-// server.use(
-//   "/images",
-//   express.static(path.resolve(__dirname, "config/images"))
-// );
-
-// server.listen(3000, () => {
-//   console.log("Server running ✅ on http://localhost:3000");
-// });
