@@ -18,7 +18,6 @@ server.use(
 
 server.use("/images", express.static("src/config/images"));
 
-
 server.get("/getRes/:id", async (req, res) => {
   try {
     const { id } = req.params;
